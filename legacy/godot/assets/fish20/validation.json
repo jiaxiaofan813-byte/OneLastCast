@@ -1,0 +1,391 @@
+{
+  "status": "pass",
+  "individual_assets": 20,
+  "unique_png_hashes": 20,
+  "xml_validated": 22,
+  "all_gradient_and_clip_references_resolved": true,
+  "transparent_corners": "Verified by Godot render_fish_art.gd for every PNG",
+  "headless_renderer": "Godot 4.7.2",
+  "assets": [
+    {
+      "id": "bluegill",
+      "sha256": "832e1f31f0c38f109de095ef53ad54d394c18649bf700391a2eb30389cd7e6e5",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        60,
+        51,
+        467,
+        242
+      ],
+      "game_visible_size_pt": [
+        43.0,
+        22.283
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "pumpkinseed",
+      "sha256": "5c2ec9e8019ef4b4e0789c014bcd238fc4cdc715e78ae3bf157308e503fd86f4",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        60,
+        51,
+        465,
+        242
+      ],
+      "game_visible_size_pt": [
+        43.0,
+        22.378
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "black_crappie",
+      "sha256": "4d515f4daf4417612c115d1a409f67c9130456cc4af76b7b78fe1aa450f8e6c8",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        53,
+        50,
+        487,
+        250
+      ],
+      "game_visible_size_pt": [
+        48.0,
+        24.641
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "yellow_perch",
+      "sha256": "ff91a57ca6947faa079586a505f0c02118ef810a316d59ba73c9e9bcc83986f9",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        47,
+        75,
+        495,
+        198
+      ],
+      "game_visible_size_pt": [
+        55.0,
+        22.0
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "largemouth_bass",
+      "sha256": "8edc0dbbe46fc7ffb0d1778126d9220a41e899955600f65e8b4816f3be39094f",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        53,
+        75,
+        494,
+        198
+      ],
+      "game_visible_size_pt": [
+        62.0,
+        24.85
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "walleye",
+      "sha256": "1c02f1241b436e7ef4dee003268cf329b418447942a5d7390553d9381b8e939e",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        47,
+        75,
+        500,
+        198
+      ],
+      "game_visible_size_pt": [
+        64.0,
+        25.344
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "northern_pike",
+      "sha256": "33d06526345eb0177aa4c7bfe7eade583b9c1373c9836953d6b4fc8af4d26cd7",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        47,
+        105,
+        513,
+        150
+      ],
+      "game_visible_size_pt": [
+        70.0,
+        20.468
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "smallmouth_bass",
+      "sha256": "b675cd9ce6fe26692c5f248c02a04df715b147f5fe3af0b14ca824048f63f7b1",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        53,
+        72,
+        480,
+        201
+      ],
+      "game_visible_size_pt": [
+        59.0,
+        24.706
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "spotted_bass",
+      "sha256": "c4fd349227defda1061b0514df3bb7fe2bcf07e571edceffd654cd91e53a9353",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        53,
+        75,
+        486,
+        198
+      ],
+      "game_visible_size_pt": [
+        59.0,
+        24.037
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "white_bass",
+      "sha256": "48a5520c2b68bcbd1baefe06828a160f918cd4857adf0411a21eaa1980ef332c",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        47,
+        72,
+        489,
+        201
+      ],
+      "game_visible_size_pt": [
+        52.0,
+        21.374
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "striped_bass",
+      "sha256": "f048301abc538db75b9ac99e1c7f35f6adca52eae59ff902be5761f984d0c61f",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        47,
+        75,
+        501,
+        198
+      ],
+      "game_visible_size_pt": [
+        65.0,
+        25.689
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "rock_bass",
+      "sha256": "3536662fb5f56ef296d48ac866f6e9de8da92c9ba573989bb659a22dac21e158",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        60,
+        65,
+        471,
+        228
+      ],
+      "game_visible_size_pt": [
+        46.0,
+        22.268
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "white_crappie",
+      "sha256": "a4dd77e08282f49ddcca77d3dc19d2d4d1a7da5ee323d3b60e75cd785d45e4e6",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        53,
+        56,
+        488,
+        244
+      ],
+      "game_visible_size_pt": [
+        48.0,
+        24.0
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "green_sunfish",
+      "sha256": "96f335f0b70ccd1a615db1a98062d2acee31cd1da9ce66907136daa52b723507",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        60,
+        74,
+        476,
+        219
+      ],
+      "game_visible_size_pt": [
+        47.0,
+        21.624
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "redear_sunfish",
+      "sha256": "2d59308ff5d13a23ae343dd47d8c7eb239281eb3e9de8c37c2b27d6169edc9ec",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        60,
+        51,
+        466,
+        242
+      ],
+      "game_visible_size_pt": [
+        44.0,
+        22.85
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "longear_sunfish",
+      "sha256": "0c5b4ad391f7e3ae5ec4621cf8f68fc569329b7c72d03412bcde94949b2864a3",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        60,
+        51,
+        460,
+        242
+      ],
+      "game_visible_size_pt": [
+        43.0,
+        22.622
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "channel_catfish",
+      "sha256": "63f952e30b42d9ae51204deeaee670092646be8e9092d93de559a0cab8e41731",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        40,
+        62,
+        532,
+        209
+      ],
+      "game_visible_size_pt": [
+        66.0,
+        25.929
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "blue_catfish",
+      "sha256": "7f5a9c1cd8f99067a11b3f27e4947290d6ebf1941f8e7f575fd97831fa9472f4",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        40,
+        62,
+        532,
+        209
+      ],
+      "game_visible_size_pt": [
+        66.0,
+        25.929
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "brook_trout",
+      "sha256": "872684a43a1628123c72433f775441f1d723dcfd05bac83d38051cadc520de36",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        49,
+        75,
+        497,
+        195
+      ],
+      "game_visible_size_pt": [
+        60.0,
+        23.541
+      ],
+      "xml_valid": true
+    },
+    {
+      "id": "rainbow_trout",
+      "sha256": "b9f6a501f0d7f19b8afa5d2e677aaf5bf1580e04885086db68c8c5885cd29af3",
+      "dimensions": [
+        600,
+        360
+      ],
+      "visual_bounds_px": [
+        47,
+        75,
+        500,
+        194
+      ],
+      "game_visible_size_pt": [
+        63.0,
+        24.444
+      ],
+      "xml_valid": true
+    }
+  ]
+}

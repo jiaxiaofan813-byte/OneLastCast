@@ -1,0 +1,83 @@
+extends SceneTree
+const Store = preload("res://scripts/game_store.gd")
+var checks=0
+var failures=0
+func check(value: bool, message: String) -> void:
+	checks+=1
+	if not value: failures+=1; push_error("FAIL "+message)
+	else: print("PASS "+message)
+func _initialize() -> void: call_deferred("run")
+func run() -> void:
+	var scene=load("res://scenes/main.tscn").instantiate()
+	scene.test_mode=true; root.add_child(scene)
+	await process_frame
+	scene.set_physics_process(false)
+	scene.rules.setup(104729,"B"); scene.selected_mode="B"; scene.last_result.clear(); scene._update_ui()
+	check(scene.rules.state=="ready","starts ready")
+	check(scene.action_button.text=="下钩","Chinese cast button")
+	check(not scene.mode_button.visible,"A/B developer control hidden by default")
+	check(scene.action_button.accessibility_name!="","main action has semantic label")
+	scene._main_action()
+	check(scene.rules.state=="sinking","cast starts sinking")
+	for i in range(70): scene.rules.tick(1.0/60)
+	scene._main_action()
+	check(scene.rules.state=="reeling","reel immediately changes rules")
+	var t=scene.rules.time
+	scene._toggle_pause(); scene._physics_process(.1)
+	check(scene.rules.time==t,"pause freezes rules")
+	scene._main_action()
+	check(scene.rules.time==t,"pause blocks gameplay input")
+	scene._toggle_pause(); scene._main_action()
+	check(scene.restore_countdown>0,"resume uses preparation period")
+	for i in range(220): scene._physics_process(1.0/60)
+	check(scene.rules.state=="ready" and not scene.last_result.is_empty(),"result prepares visible next school")
+	check(scene.action_button.text=="再来一竿","quick retry label")
+	var positions=scene.rules.fish.duplicate(true)
+	var seed_value=scene.rules.round_seed
+	scene._main_action()
+	check(scene.rules.round_seed==seed_value,"next cast does not change school seed")
+	check(scene.rules.fish==positions,"next cast does not move or reshuffle fish")
+	scene._show_info("help")
+	check(scene.paused and scene.info_panel.visible,"help pauses play")
+	scene._close_info()
+	check(not scene.paused and scene.restore_countdown>0,"help dismissal resumes safely")
+	scene._toggle_pause(); scene._show_info("credits")
+	check(scene.info_text.text.contains("MIT") and scene.info_text.text.contains("GODOT"),"credits expose actual engine license")
+	scene._close_info()
+	check(scene.paused and scene.pause_panel.visible,"credits returns to prior paused menu")
+	scene.language="en"; scene._update_ui()
+	check(scene.title_label.text=="One More Cast","English title")
+	check(scene.resume_button.text=="Continue","English settings")
+	check(scene.hint_label.text.length()>0,"English gameplay guidance")
+	check(scene.title_label.get_theme_font("font").get_string_size(scene.title_label.text,HORIZONTAL_ALIGNMENT_LEFT,-1,23).x<=scene.title_label.size.x,"English title fits label")
+	scene._reset_cast(); scene.restore_countdown=0
+	scene._switch_mode(); scene._main_action()
+	check(scene.rules.state=="aiming","developer A comparison retained")
+	scene._main_action()
+	for i in range(120): scene._physics_process(1.0/60)
+	check(scene.rules.state=="ready" and int(scene.last_result.count)<=1,"A comparison returns with max one fish")
+	check(scene.sound_bank.size()==9,"nine sound effects preloaded")
+	check(scene.music_player!=null,"original looping music preloaded")
+	# Exactly-once durable outcome handling, even if a pre-consumption snapshot is restored.
+	scene.selected_mode="B"; scene.rules.setup(55,"B"); scene.rules.act()
+	while scene.rules.state!="result": scene.rules.tick(1.0/60)
+	var pending=scene.rules.export_snapshot()
+	var before=scene.rounds_completed
+	scene._consume_events()
+	check(scene.rounds_completed==before+1,"result committed once")
+	check(scene.rules.restore_snapshot(pending),"restore pending-result snapshot")
+	scene._consume_events()
+	check(scene.rounds_completed==before+1,"restored result cannot double-award")
+	# Isolated disk corruption recovery; never touches player save.
+	var storage=Store.new(true)
+	var data={"version":2,"settings":{"language":"zh"},"best":{"B":25},"snapshot":scene.rules.export_snapshot()}
+	check(storage.save_state(data),"atomic save succeeds")
+	data.best.B=50; storage.save_state(data)
+	var bad=FileAccess.open(storage.path("save-v2.json"),FileAccess.WRITE)
+	bad.store_string("not valid JSON"); bad.close()
+	var recovered=storage.load_state()
+	check(storage.recovered_backup and recovered.best.B==25,"corrupt primary recovers prior valid backup")
+	check(scene.rules.restore_snapshot(recovered.snapshot),"backup gameplay snapshot valid")
+	print("UI TESTS %d checks / %d failures"%[checks,failures])
+	scene.queue_free(); await process_frame; await process_frame; await create_timer(.3).timeout
+	quit(1 if failures else 0)

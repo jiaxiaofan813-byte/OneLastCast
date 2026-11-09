@@ -1,0 +1,31 @@
+; Godot 4.7.2 prototype. All project data and source assets live on the SSD.
+config_version=5
+[application]
+config/description="A simple offline fishing arcade game. No accounts, ads or in-app purchases."
+config/name="One Last Cast"
+config/version="0.7.0"
+run/main_scene="res://scenes/arcade.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+[display]
+window/size/viewport_width=360
+window/size/viewport_height=640
+window/size/window_width_override=504
+window/size/window_height_override=896
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+window/handheld/orientation=1
+[rendering]
+textures/vram_compression/import_etc2_astc=true
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.04,0.13,0.16,1)
+[physics]
+common/physics_ticks_per_second=60
+common/max_physics_steps_per_frame=6
+[input_devices]
+pointing/emulate_touch_from_mouse=false
+pointing/emulate_mouse_from_touch=true
+
+[accessibility]
+general/accessibility_support=1

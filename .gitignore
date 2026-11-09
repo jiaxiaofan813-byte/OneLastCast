@@ -1,0 +1,24 @@
+# Godot caches and local player data
+**/.godot/
+**/runtime/
+**/captures/
+**/build/
+**/exports/
+**/.module-cache/
+**/__pycache__/
+.DS_Store
+._*
+*.log
+*.tmp
+*.bak
+*.pyc
+# Local music is not cleared for public redistribution
+legacy/godot/assets/music/*
+!legacy/godot/assets/music/README.md
+# Local signing, credentials and IDE state
+.env
+.env.*
+*.p12
+*.mobileprovision
+**/xcuserdata/
+**/DerivedData/

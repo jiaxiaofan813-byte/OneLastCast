@@ -1,0 +1,1086 @@
+{
+  "species": [
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        186
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.516666666666667
+      ],
+      "body_ellipse_center_px": [
+        340,
+        186
+      ],
+      "body_ellipse_radii_normalized": [
+        0.3,
+        0.222222222222222
+      ],
+      "body_ellipse_radii_px": [
+        180,
+        80
+      ],
+      "body_hitbox_px": [
+        160,
+        106,
+        360,
+        160
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "sun",
+      "id": "bluegill",
+      "index": 0.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Bluegill",
+      "png": "res://assets/fish20/bluegill.png",
+      "recommended_canvas_size_pt": [
+        55.2462526766595,
+        33.1477516059957
+      ],
+      "recommended_tier": 0,
+      "recommended_visual_width_pt": 43.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/bluegill.svg",
+      "visual_bounds_px": [
+        60,
+        51,
+        467,
+        242
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        186
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.516666666666667
+      ],
+      "body_ellipse_center_px": [
+        340,
+        186
+      ],
+      "body_ellipse_radii_normalized": [
+        0.3,
+        0.222222222222222
+      ],
+      "body_ellipse_radii_px": [
+        180,
+        80
+      ],
+      "body_hitbox_px": [
+        160,
+        106,
+        360,
+        160
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "sun",
+      "id": "pumpkinseed",
+      "index": 1.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Pumpkinseed",
+      "png": "res://assets/fish20/pumpkinseed.png",
+      "recommended_canvas_size_pt": [
+        55.4838709677419,
+        33.2903225806452
+      ],
+      "recommended_tier": 0,
+      "recommended_visual_width_pt": 43.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/pumpkinseed.svg",
+      "visual_bounds_px": [
+        60,
+        51,
+        465,
+        242
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        340,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.311666666666667,
+        0.202777777777778
+      ],
+      "body_ellipse_radii_px": [
+        187,
+        73
+      ],
+      "body_hitbox_px": [
+        153,
+        110,
+        374,
+        146
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "crappie",
+      "id": "black_crappie",
+      "index": 2.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Black crappie",
+      "png": "res://assets/fish20/black_crappie.png",
+      "recommended_canvas_size_pt": [
+        59.1375770020534,
+        35.482546201232
+      ],
+      "recommended_tier": 1,
+      "recommended_visual_width_pt": 48.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/black_crappie.svg",
+      "visual_bounds_px": [
+        53,
+        50,
+        487,
+        250
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        181
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.502777777777778
+      ],
+      "body_ellipse_center_px": [
+        340,
+        181
+      ],
+      "body_ellipse_radii_normalized": [
+        0.32,
+        0.136111111111111
+      ],
+      "body_ellipse_radii_px": [
+        192,
+        49
+      ],
+      "body_hitbox_px": [
+        148,
+        132,
+        384,
+        98
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "perch",
+      "id": "yellow_perch",
+      "index": 3.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Yellow perch",
+      "png": "res://assets/fish20/yellow_perch.png",
+      "recommended_canvas_size_pt": [
+        66.6666666666667,
+        40.0
+      ],
+      "recommended_tier": 1,
+      "recommended_visual_width_pt": 55.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/yellow_perch.svg",
+      "visual_bounds_px": [
+        47,
+        75,
+        495,
+        198
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        340,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.316666666666667,
+        0.144444444444444
+      ],
+      "body_ellipse_radii_px": [
+        190,
+        52
+      ],
+      "body_hitbox_px": [
+        150,
+        131,
+        380,
+        104
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "bass",
+      "id": "largemouth_bass",
+      "index": 4.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Largemouth bass",
+      "png": "res://assets/fish20/largemouth_bass.png",
+      "recommended_canvas_size_pt": [
+        75.3036437246964,
+        45.1821862348178
+      ],
+      "recommended_tier": 2,
+      "recommended_visual_width_pt": 62.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/largemouth_bass.svg",
+      "visual_bounds_px": [
+        53,
+        75,
+        494,
+        198
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        181
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.502777777777778
+      ],
+      "body_ellipse_center_px": [
+        340,
+        181
+      ],
+      "body_ellipse_radii_normalized": [
+        0.32,
+        0.136111111111111
+      ],
+      "body_ellipse_radii_px": [
+        192,
+        49
+      ],
+      "body_hitbox_px": [
+        148,
+        132,
+        384,
+        98
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "perch",
+      "id": "walleye",
+      "index": 5.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Walleye",
+      "png": "res://assets/fish20/walleye.png",
+      "recommended_canvas_size_pt": [
+        76.8,
+        46.08
+      ],
+      "recommended_tier": 2,
+      "recommended_visual_width_pt": 64.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/walleye.svg",
+      "visual_bounds_px": [
+        47,
+        75,
+        500,
+        198
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        345,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.575,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        345,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.333333333333333,
+        0.0833333333333333
+      ],
+      "body_ellipse_radii_px": [
+        200,
+        30
+      ],
+      "body_hitbox_px": [
+        145,
+        153,
+        400,
+        60
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "pike",
+      "id": "northern_pike",
+      "index": 6.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Northern pike",
+      "png": "res://assets/fish20/northern_pike.png",
+      "recommended_canvas_size_pt": [
+        81.8713450292398,
+        49.1228070175439
+      ],
+      "recommended_tier": 3,
+      "recommended_visual_width_pt": 70.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/northern_pike.svg",
+      "visual_bounds_px": [
+        47,
+        105,
+        513,
+        150
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        340,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.316666666666667,
+        0.144444444444444
+      ],
+      "body_ellipse_radii_px": [
+        190,
+        52
+      ],
+      "body_hitbox_px": [
+        150,
+        131,
+        380,
+        104
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "bass",
+      "id": "smallmouth_bass",
+      "index": 7.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Smallmouth bass",
+      "png": "res://assets/fish20/smallmouth_bass.png",
+      "recommended_canvas_size_pt": [
+        73.75,
+        44.25
+      ],
+      "recommended_tier": 2,
+      "recommended_visual_width_pt": 59.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/smallmouth_bass.svg",
+      "visual_bounds_px": [
+        53,
+        72,
+        480,
+        201
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        340,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.316666666666667,
+        0.144444444444444
+      ],
+      "body_ellipse_radii_px": [
+        190,
+        52
+      ],
+      "body_hitbox_px": [
+        150,
+        131,
+        380,
+        104
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "bass",
+      "id": "spotted_bass",
+      "index": 8.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Spotted bass",
+      "png": "res://assets/fish20/spotted_bass.png",
+      "recommended_canvas_size_pt": [
+        72.8395061728395,
+        43.7037037037037
+      ],
+      "recommended_tier": 2,
+      "recommended_visual_width_pt": 59.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/spotted_bass.svg",
+      "visual_bounds_px": [
+        53,
+        75,
+        486,
+        198
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        340,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.316666666666667,
+        0.144444444444444
+      ],
+      "body_ellipse_radii_px": [
+        190,
+        52
+      ],
+      "body_hitbox_px": [
+        150,
+        131,
+        380,
+        104
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "bass",
+      "id": "white_bass",
+      "index": 9.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "White bass",
+      "png": "res://assets/fish20/white_bass.png",
+      "recommended_canvas_size_pt": [
+        63.8036809815951,
+        38.2822085889571
+      ],
+      "recommended_tier": 1,
+      "recommended_visual_width_pt": 52.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/white_bass.svg",
+      "visual_bounds_px": [
+        47,
+        72,
+        489,
+        201
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        340,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.316666666666667,
+        0.144444444444444
+      ],
+      "body_ellipse_radii_px": [
+        190,
+        52
+      ],
+      "body_hitbox_px": [
+        150,
+        131,
+        380,
+        104
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "bass",
+      "id": "striped_bass",
+      "index": 10.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Striped bass",
+      "png": "res://assets/fish20/striped_bass.png",
+      "recommended_canvas_size_pt": [
+        77.8443113772455,
+        46.7065868263473
+      ],
+      "recommended_tier": 3,
+      "recommended_visual_width_pt": 65.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/striped_bass.svg",
+      "visual_bounds_px": [
+        47,
+        75,
+        501,
+        198
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        186
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.516666666666667
+      ],
+      "body_ellipse_center_px": [
+        340,
+        186
+      ],
+      "body_ellipse_radii_normalized": [
+        0.3,
+        0.222222222222222
+      ],
+      "body_ellipse_radii_px": [
+        180,
+        80
+      ],
+      "body_hitbox_px": [
+        160,
+        106,
+        360,
+        160
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "sun",
+      "id": "rock_bass",
+      "index": 11.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Rock bass",
+      "png": "res://assets/fish20/rock_bass.png",
+      "recommended_canvas_size_pt": [
+        58.5987261146497,
+        35.1592356687898
+      ],
+      "recommended_tier": 1,
+      "recommended_visual_width_pt": 46.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/rock_bass.svg",
+      "visual_bounds_px": [
+        60,
+        65,
+        471,
+        228
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        340,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.311666666666667,
+        0.202777777777778
+      ],
+      "body_ellipse_radii_px": [
+        187,
+        73
+      ],
+      "body_hitbox_px": [
+        153,
+        110,
+        374,
+        146
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "crappie",
+      "id": "white_crappie",
+      "index": 12.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "White crappie",
+      "png": "res://assets/fish20/white_crappie.png",
+      "recommended_canvas_size_pt": [
+        59.0163934426229,
+        35.4098360655738
+      ],
+      "recommended_tier": 1,
+      "recommended_visual_width_pt": 48.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/white_crappie.svg",
+      "visual_bounds_px": [
+        53,
+        56,
+        488,
+        244
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        186
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.516666666666667
+      ],
+      "body_ellipse_center_px": [
+        340,
+        186
+      ],
+      "body_ellipse_radii_normalized": [
+        0.3,
+        0.222222222222222
+      ],
+      "body_ellipse_radii_px": [
+        180,
+        80
+      ],
+      "body_hitbox_px": [
+        160,
+        106,
+        360,
+        160
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "sun",
+      "id": "green_sunfish",
+      "index": 13.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Green sunfish",
+      "png": "res://assets/fish20/green_sunfish.png",
+      "recommended_canvas_size_pt": [
+        59.2436974789916,
+        35.546218487395
+      ],
+      "recommended_tier": 0,
+      "recommended_visual_width_pt": 47.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/green_sunfish.svg",
+      "visual_bounds_px": [
+        60,
+        74,
+        476,
+        219
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        186
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.516666666666667
+      ],
+      "body_ellipse_center_px": [
+        340,
+        186
+      ],
+      "body_ellipse_radii_normalized": [
+        0.3,
+        0.222222222222222
+      ],
+      "body_ellipse_radii_px": [
+        180,
+        80
+      ],
+      "body_hitbox_px": [
+        160,
+        106,
+        360,
+        160
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "sun",
+      "id": "redear_sunfish",
+      "index": 14.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Redear sunfish",
+      "png": "res://assets/fish20/redear_sunfish.png",
+      "recommended_canvas_size_pt": [
+        56.6523605150215,
+        33.9914163090129
+      ],
+      "recommended_tier": 0,
+      "recommended_visual_width_pt": 44.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/redear_sunfish.svg",
+      "visual_bounds_px": [
+        60,
+        51,
+        466,
+        242
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        186
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.516666666666667
+      ],
+      "body_ellipse_center_px": [
+        340,
+        186
+      ],
+      "body_ellipse_radii_normalized": [
+        0.3,
+        0.222222222222222
+      ],
+      "body_ellipse_radii_px": [
+        180,
+        80
+      ],
+      "body_hitbox_px": [
+        160,
+        106,
+        360,
+        160
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "sun",
+      "id": "longear_sunfish",
+      "index": 15.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Longear sunfish",
+      "png": "res://assets/fish20/longear_sunfish.png",
+      "recommended_canvas_size_pt": [
+        56.0869565217391,
+        33.6521739130435
+      ],
+      "recommended_tier": 0,
+      "recommended_visual_width_pt": 43.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/longear_sunfish.svg",
+      "visual_bounds_px": [
+        60,
+        51,
+        460,
+        242
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        345,
+        185
+      ],
+      "body_ellipse_center_normalized": [
+        0.575,
+        0.513888888888889
+      ],
+      "body_ellipse_center_px": [
+        345,
+        185
+      ],
+      "body_ellipse_radii_normalized": [
+        0.325,
+        0.127777777777778
+      ],
+      "body_ellipse_radii_px": [
+        195,
+        46
+      ],
+      "body_hitbox_px": [
+        150,
+        139,
+        390,
+        92
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "cat",
+      "id": "channel_catfish",
+      "index": 16.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Channel catfish",
+      "png": "res://assets/fish20/channel_catfish.png",
+      "recommended_canvas_size_pt": [
+        74.4360902255639,
+        44.6616541353383
+      ],
+      "recommended_tier": 2,
+      "recommended_visual_width_pt": 66.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/channel_catfish.svg",
+      "visual_bounds_px": [
+        40,
+        62,
+        532,
+        209
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        345,
+        185
+      ],
+      "body_ellipse_center_normalized": [
+        0.575,
+        0.513888888888889
+      ],
+      "body_ellipse_center_px": [
+        345,
+        185
+      ],
+      "body_ellipse_radii_normalized": [
+        0.325,
+        0.127777777777778
+      ],
+      "body_ellipse_radii_px": [
+        195,
+        46
+      ],
+      "body_hitbox_px": [
+        150,
+        139,
+        390,
+        92
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "cat",
+      "id": "blue_catfish",
+      "index": 17.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Blue catfish",
+      "png": "res://assets/fish20/blue_catfish.png",
+      "recommended_canvas_size_pt": [
+        74.4360902255639,
+        44.6616541353383
+      ],
+      "recommended_tier": 3,
+      "recommended_visual_width_pt": 66.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/blue_catfish.svg",
+      "visual_bounds_px": [
+        40,
+        62,
+        532,
+        209
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        340,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.32,
+        0.130555555555556
+      ],
+      "body_ellipse_radii_px": [
+        192,
+        47
+      ],
+      "body_hitbox_px": [
+        148,
+        136,
+        384,
+        94
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "trout",
+      "id": "brook_trout",
+      "index": 18.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Brook trout",
+      "png": "res://assets/fish20/brook_trout.png",
+      "recommended_canvas_size_pt": [
+        72.4346076458752,
+        43.4607645875251
+      ],
+      "recommended_tier": 1,
+      "recommended_visual_width_pt": 60.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/brook_trout.svg",
+      "visual_bounds_px": [
+        49,
+        75,
+        497,
+        195
+      ]
+    },
+    {
+      "anatomy_notes_source": "docs/fish-morphology.md",
+      "anchor_px": [
+        340,
+        183
+      ],
+      "body_ellipse_center_normalized": [
+        0.566666666666667,
+        0.508333333333333
+      ],
+      "body_ellipse_center_px": [
+        340,
+        183
+      ],
+      "body_ellipse_radii_normalized": [
+        0.32,
+        0.130555555555556
+      ],
+      "body_ellipse_radii_px": [
+        192,
+        47
+      ],
+      "body_hitbox_px": [
+        148,
+        136,
+        384,
+        94
+      ],
+      "canvas_px": [
+        600.0,
+        360.0
+      ],
+      "facing": "right",
+      "family": "trout",
+      "id": "rainbow_trout",
+      "index": 19.0,
+      "license": "Original project artwork; no third-party image assets",
+      "name": "Rainbow trout",
+      "png": "res://assets/fish20/rainbow_trout.png",
+      "recommended_canvas_size_pt": [
+        75.6,
+        45.36
+      ],
+      "recommended_tier": 2,
+      "recommended_visual_width_pt": 63.0,
+      "render_note": "Use uniform scale = desired visual width / visual_bounds_px[2]. Draw origin = collision position minus anchor_px * scale. Hit ellipse radii = body_ellipse_radii_px * scale. Preserve proportions.",
+      "svg": "res://assets/fish20/rainbow_trout.svg",
+      "visual_bounds_px": [
+        47,
+        75,
+        500,
+        194
+      ]
+    }
+  ],
+  "style": "Warm natural-history vector illustration with teal ink and cream highlights",
+  "version": 2
+}

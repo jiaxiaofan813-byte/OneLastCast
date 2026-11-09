@@ -1,0 +1,96 @@
+{
+  "retrieved_at_utc": "2026-11-09T02:18:46.327169+00:00",
+  "font_path": "assets/fonts/NotoSansSC-Regular.ttf",
+  "family": "Noto Sans SC",
+  "weight": 400,
+  "style": "Regular",
+  "format": "TrueType",
+  "subset": false,
+  "stylesheet_url": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400",
+  "font_url": "https://fonts.gstatic.com/s/notosanssc/v41/k3kCo84MPvpLmixcA63oeAL7Iqp5IZJF9bmaG9_FnYw.ttf",
+  "font_sha256": "450625c8d46ab3df97b7904ded955ec2746d17ec76740cb1e91d1ba63a0f89af",
+  "font_bytes": 10540644,
+  "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+  "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+  "font_name_table": {
+    "0": "(c) 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.",
+    "1": "Noto Sans SC",
+    "2": "Regular",
+    "5": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+    "14": "http://scripts.sil.org/OFL"
+  },
+  "validated_sources": [
+    {
+      "path": "scripts/arcade/arcade_main.gd",
+      "sha256": "85acaa72fdbfdd780a43fd140fb8b217c9fceeedda2d857cadb6dd93ceb5c146"
+    },
+    {
+      "path": "scripts/arcade/arcade_rules.gd",
+      "sha256": "6c979005993bac832670a8a5730201e3d922cc22b281227595ab7fec3c4086d3"
+    },
+    {
+      "path": "scripts/arcade/catch_ledger.gd",
+      "sha256": "7ce2cd57897ae11610a27f55fa4db437e27777ba4c6de6688423d094f474ad10"
+    },
+    {
+      "path": "scripts/arcade/fish_catalog.gd",
+      "sha256": "a572eed4ab13ea19df1807a3c927e84fe8ef7ea101c382488dadf407463b23db"
+    },
+    {
+      "path": "scripts/arcade/fish_geometry.gd",
+      "sha256": "95bf8df298060cb9faf0e5ec79c178a87d9b748ea969cb9cc2f6794c5f0c78eb"
+    },
+    {
+      "path": "scripts/arcade/frontdoor_ui.gd",
+      "sha256": "0b358c1019be2691c158c8dfffda3c6dfbef915e0504a765e1cdd008714c8950"
+    },
+    {
+      "path": "scripts/arcade/haptic_feedback.gd",
+      "sha256": "bcb0162e7d7507b9e7d793dd0d59977b1efcc1dd4dd099de019513ebaf9186af"
+    },
+    {
+      "path": "scripts/arcade/mobile_safe_area.gd",
+      "sha256": "7c6600fb15f10467fdccac8eb331a3835ba8881989232a45c1b7a4c6813c2752"
+    },
+    {
+      "path": "scripts/arcade/music_controller.gd",
+      "sha256": "21363df307e2b3ede7ad7bb8e7aa2cb1cec94e1aa800e80346c01e8e739e4482"
+    },
+    {
+      "path": "scripts/arcade/rod_spring.gd",
+      "sha256": "32d44fb5dd30a36d8255cb819e507ee826fdc458fbedaba3ec86e59f211dd95b"
+    },
+    {
+      "path": "scripts/arcade/water_surface.gd",
+      "sha256": "30bceef398c03cdca2815a94e140911cadb280480bea50f7bc0605c5397b877b"
+    },
+    {
+      "path": "scripts/fishing_rules.gd",
+      "sha256": "9de278094d2df62a0b222cb14670af8dc54f1ccc1f20d685581f11ae52950e49"
+    },
+    {
+      "path": "scripts/game_copy.gd",
+      "sha256": "e549fd706a35919aeeede83a375092e9f826b581519ab318b0bbfe4dd99f43b9"
+    },
+    {
+      "path": "scripts/game_store.gd",
+      "sha256": "62c27548f8e700beba36411c20879db4ce146effaa2b5fd3c89f691a8f1a02c4"
+    },
+    {
+      "path": "scripts/main.gd",
+      "sha256": "8d02680953707142a6f4a9f75a42b32a6f28eaadb86cdc747d8459b85a11b725"
+    },
+    {
+      "path": "scenes/arcade.tscn",
+      "sha256": "087ed24724bcb3cfd5f0736a032358526cf920c5e2a4492c3a4b66b9350bb32a"
+    },
+    {
+      "path": "scenes/main.tscn",
+      "sha256": "eb1f6b3b9211413076fcf4c17c687d35900f29c5b6c44e7e49fa8224978f6cf9"
+    }
+  ],
+  "godot_version": "4.7.2.stable.official.ed1daf0bf",
+  "system_fonts_copied": false,
+  "new_tools_installed": false,
+  "project_content_transmitted": false
+}

@@ -1,0 +1,2 @@
+# Audio provenance
+All 9 WAV files are original, deterministic procedural synthesis made for this prototype on 2026-11-08. Source: ../source/synthesize_audio.py (Python standard library). 48 kHz, mono, 16-bit PCM. No external sample, copyrighted music, recorded voice or sound library is used. Files: cast, reel, catch1/2/3, splash, big_splash, result, empty. These are prototype effects, not finished commercial audio masters.
